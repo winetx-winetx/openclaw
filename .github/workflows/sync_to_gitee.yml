@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Sync to Gitee
-        uses: wearerequired/git-mirror-action@master
+        uses: Yikun/gitee-sync@master
         with:
           src: github/winetx-winetx/openclaw
           dst: gitee/winetx/openclaw
