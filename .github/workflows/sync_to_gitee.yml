@@ -12,7 +12,7 @@ jobs:
       - name: Sync to Gitee
         uses: Yikun/gitee-sync@v0.1
         with:
-          src: github/openclaw/openclaw
+          src: https://github.com/winetx-winetx/openclaw.git
           dst: https://gitee.com/winetx/openclaw.git
           dst_key: ${{ secrets.GITEE_PASSWORD }}
           dst_token: ${{ secrets.GITEE_PASSWORD }}
