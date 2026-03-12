@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Sync to Gitee
-        uses: Yikun/gitee-sync@v0.1
+        uses: Yikun/gitee-sync@@master
         with:
           src: github/winetx-winetx/openclaw
           dst: gitee/winetx/openclaw
